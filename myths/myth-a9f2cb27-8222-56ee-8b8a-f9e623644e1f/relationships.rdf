@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:myth="urn:myth-analyser:"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нинсикила">
+    <rdfs:label xml:lang="ru">Нинсикила</rdfs:label>
+    <myth:resides_in rdf:resource="urn:myth-analyser:geo:Дильмун-город"/>
+    <myth:resides_in rdf:resource="urn:myth-analyser:geo:Маган"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нинхурсаг">
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Абау"/>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Нинкируту"/>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Нинкаси"/>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Нази"/>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Азимуа"/>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Нинти"/>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Эншаг"/>
+    <rdfs:label xml:lang="ru">Нинхурсаг</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:5">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинту"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нинсар"/>
+    <rdfs:comment xml:lang="ru">породила</rdfs:comment>
+    <rdfs:label xml:lang="ru">породила</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:4">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинсикила"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:resides_in"/>
+    <rdf:object rdf:resource="urn:myth-analyser:geo:Дильмун-город"/>
+    <rdfs:comment xml:lang="ru">получила город</rdfs:comment>
+    <rdfs:label xml:lang="ru">получила город</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нинкаси">
+    <rdfs:label xml:lang="ru">Нинкаси</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:13">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинхурсаг"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нинкируту"/>
+    <rdfs:comment xml:lang="ru">будет рождена</rdfs:comment>
+    <rdfs:label xml:lang="ru">будет рождена</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Энки">
+    <myth:is_spouse_of rdf:resource="urn:myth-analyser:person:Нинсикила"/>
+    <rdfs:label xml:lang="ru">Энки</rdfs:label>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Нинсикила"/>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Нинсар"/>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Нинкур"/>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Утту"/>
+    <myth:resides_in rdf:resource="urn:myth-analyser:geo:Дильмун"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:21">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нингишзида"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_spouse_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Азимуа"/>
+    <rdfs:comment xml:lang="ru">назначена супругой</rdfs:comment>
+    <rdfs:label xml:lang="ru">назначена супругой</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:2">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Энки"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нинсикила"/>
+    <rdfs:comment xml:lang="ru">отец назван</rdfs:comment>
+    <rdfs:label xml:lang="ru">отец назван</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:15">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинхурсаг"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нази"/>
+    <rdfs:comment xml:lang="ru">будет рождена</rdfs:comment>
+    <rdfs:label xml:lang="ru">будет рождена</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:9">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинкур"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Утту"/>
+    <rdfs:comment xml:lang="ru">породила</rdfs:comment>
+    <rdfs:label xml:lang="ru">породила</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:10">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Энки"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Утту"/>
+    <rdfs:comment xml:lang="ru">семя Энки</rdfs:comment>
+    <rdfs:label xml:lang="ru">семя Энки</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:geo:Дильмун">
+    <rdfs:label xml:lang="ru">Дильмун</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:23">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Эншаг"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:resides_in"/>
+    <rdf:object rdf:resource="urn:myth-analyser:geo:Дильмун"/>
+    <rdfs:comment xml:lang="ru">господином будет</rdfs:comment>
+    <rdfs:label xml:lang="ru">господином будет</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:11">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Исимуд"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_servant_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Энки"/>
+    <rdfs:comment xml:lang="ru">советчик его</rdfs:comment>
+    <rdfs:label xml:lang="ru">советчик его</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Утту">
+    <rdfs:label xml:lang="ru">Утту</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:14">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинхурсаг"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нинкаси"/>
+    <rdfs:comment xml:lang="ru">будет рождена</rdfs:comment>
+    <rdfs:label xml:lang="ru">будет рождена</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:7">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинсар"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нинкур"/>
+    <rdfs:comment xml:lang="ru">родила</rdfs:comment>
+    <rdfs:label xml:lang="ru">родила</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:3">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Энки"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:resides_in"/>
+    <rdf:object rdf:resource="urn:myth-analyser:geo:Дильмун"/>
+    <rdfs:comment xml:lang="ru">возлег там</rdfs:comment>
+    <rdfs:label xml:lang="ru">возлег там</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:8">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Энки"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нинкур"/>
+    <rdfs:comment xml:lang="ru">семя Энки</rdfs:comment>
+    <rdfs:label xml:lang="ru">семя Энки</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:20">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нази"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_spouse_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Умундар"/>
+    <rdfs:comment xml:lang="ru">назначена супругой</rdfs:comment>
+    <rdfs:label xml:lang="ru">назначена супругой</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:18">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинхурсаг"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Эншаг"/>
+    <rdfs:comment xml:lang="ru">будет рожден</rdfs:comment>
+    <rdfs:label xml:lang="ru">будет рожден</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:19">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинкируту"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_spouse_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Ниназу"/>
+    <rdfs:comment xml:lang="ru">назначена супругой</rdfs:comment>
+    <rdfs:label xml:lang="ru">назначена супругой</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:22">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинсикила"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:resides_in"/>
+    <rdf:object rdf:resource="urn:myth-analyser:geo:Маган"/>
+    <rdfs:comment xml:lang="ru">господином Магана</rdfs:comment>
+    <rdfs:label xml:lang="ru">господином Магана</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:17">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинхурсаг"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нинти"/>
+    <rdfs:comment xml:lang="ru">будет рождена</rdfs:comment>
+    <rdfs:label xml:lang="ru">будет рождена</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:1">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Энки"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_spouse_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нинсикила"/>
+    <rdfs:comment xml:lang="ru">возлег с нею</rdfs:comment>
+    <rdfs:label xml:lang="ru">возлег с нею</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:12">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинхурсаг"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Абау"/>
+    <rdfs:comment xml:lang="ru">будет рожден</rdfs:comment>
+    <rdfs:label xml:lang="ru">будет рожден</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:geo:Маган">
+    <rdfs:label xml:lang="ru">Маган</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:16">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Нинхурсаг"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Азимуа"/>
+    <rdfs:comment xml:lang="ru">будет рождена</rdfs:comment>
+    <rdfs:label xml:lang="ru">будет рождена</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нингишзида">
+    <myth:is_spouse_of rdf:resource="urn:myth-analyser:person:Азимуа"/>
+    <rdfs:label xml:lang="ru">Нингишзида</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Умундар">
+    <rdfs:label xml:lang="ru">Умундар</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нинкур">
+    <rdfs:label xml:lang="ru">Нинкур</rdfs:label>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Утту"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нинту">
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Нинсар"/>
+    <rdfs:label xml:lang="ru">Нинту</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Ниназу">
+    <rdfs:label xml:lang="ru">Ниназу</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Эншаг">
+    <rdfs:label xml:lang="ru">Эншаг</rdfs:label>
+    <myth:resides_in rdf:resource="urn:myth-analyser:geo:Дильмун"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Абау">
+    <rdfs:label xml:lang="ru">Абау</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:6">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Энки"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Нинсар"/>
+    <rdfs:comment xml:lang="ru">семя Энки</rdfs:comment>
+    <rdfs:label xml:lang="ru">семя Энки</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Азимуа">
+    <rdfs:label xml:lang="ru">Азимуа</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Исимуд">
+    <myth:is_servant_of rdf:resource="urn:myth-analyser:person:Энки"/>
+    <rdfs:label xml:lang="ru">Исимуд</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нинсар">
+    <rdfs:label xml:lang="ru">Нинсар</rdfs:label>
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Нинкур"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нази">
+    <rdfs:label xml:lang="ru">Нази</rdfs:label>
+    <myth:is_spouse_of rdf:resource="urn:myth-analyser:person:Умундар"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нинкируту">
+    <rdfs:label xml:lang="ru">Нинкируту</rdfs:label>
+    <myth:is_spouse_of rdf:resource="urn:myth-analyser:person:Ниназу"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:geo:Дильмун-город">
+    <rdfs:label xml:lang="ru">Дильмун-город</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Нинти">
+    <rdfs:label xml:lang="ru">Нинти</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

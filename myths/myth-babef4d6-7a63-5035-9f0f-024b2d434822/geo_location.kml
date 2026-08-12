@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>Энгура</name>
+            <description>Изображена как тихоструйная глубь, в недрах которой никто из богов не смеет заглянуть. Здесь Энки возлежит на своем ложе и спит в начале повествования.</description>
+            <Point id="2">
+                <coordinates>46.1031,30.9625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5">
+            <name>Абзу</name>
+            <description>Показан как место, из самой сердцевины которого берут глину для сотворения человеческого рода. Позднее Нинмах отщипывает рукой глину Абзу, создавая из нее различные существа.</description>
+            <Point id="4">
+                <coordinates>46.1031,30.9625,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="7">
+            <name>Шумер</name>
+            <description>Изображен как предел, из которого нельзя уйти: в тексте звучит проклятие, что из Шумера не уйдешь. Других подробностей о нем не сообщается.</description>
+            <Point id="6">
+                <coordinates>46.1,31.3,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>Экур</name>
+            <description>Упомянут как место, откуда говорящая ушла, лишившись сна. Он назван в ряду образов разрушенного дома и града.</description>
+            <Point id="8">
+                <coordinates>45.2306,32.1236,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
