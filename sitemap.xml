@@ -3,12 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/myths/</loc>
-    <lastmod>2026-08-12T19:01:28+00:00</lastmod>
+    <lastmod>2026-08-31T22:26:16+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/myths/myth-babef4d6-7a63-5035-9f0f-024b2d434822/</loc>
-    <lastmod>2026-08-12T19:01:28+00:00</lastmod>
+    <loc>//localhost:1313/myths/myth-dc6a8a71-2b66-5de4-ab50-8c59d348a0c4/</loc>
+    <lastmod>2026-08-31T22:26:16+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
+    <lastmod>2026-08-31T22:26:16+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/myths/myth-babef4d6-7a63-5035-9f0f-024b2d434822/</loc>
     <lastmod>2026-08-12T19:01:28+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/myths/myth-a9f2cb27-8222-56ee-8b8a-f9e623644e1f/</loc>

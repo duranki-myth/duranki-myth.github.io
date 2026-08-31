@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>Эредуг</name>
+            <description>Изображён как град в Абзу, к которому Инанна направляет путь, чтобы обратиться к Энки. Здесь её встречают угощением и пивом «перед Львами Эредуга», здесь Энки дарует ей Сути, а затем велит вернуть ладью небесную обратно к Эредугу.</description>
+            <Point id="2">
+                <coordinates>45.9969,30.8147,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5">
+            <name>Абзу</name>
+            <description>Показан как владение Энки и место, где находится Эредуг и дом Энки, хранящий множество благ. В Абзу Инанна приходит к Энки, здесь происходит пир и передача Сутей, а имя и сила Абзу многократно призываются в клятвах и дарении.</description>
+            <Point id="4">
+                <coordinates>45.9969,30.8147,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="7">
+            <name>Эден</name>
+            <description>Упомянут как местность, с которой связан венец: Инанна возлагает на голову «Шугур, венец Эдена».</description>
+            <Point id="6">
+                <coordinates>46.0,31.0,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>Урук</name>
+            <description>Показан как цель пути Инанны с ладьёй небесной и Сутями. К древним воротам Урука она приводит ладью, сюда, по словам Ниншубуры, приходит изобилие, на улицах собирается народ, а жители города становятся участниками празднества.</description>
+            <Point id="8">
+                <coordinates>45.6361,31.3222,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="11">
+            <name>Кулаб</name>
+            <description>Изображён вместе с Уруком как место прибытия ладьи небесной к древним воротам. В Кулаб, как и в Урук, должно прийти изобилие после возвращения Инанны.</description>
+            <Point id="10">
+                <coordinates>45.6361,31.3222,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="13">
+            <name>Эанна</name>
+            <description>Показан как святое место Инанны: Ниншубура названа посланницей её святой Эанны. Иных подробностей в тексте не дано.</description>
+            <Point id="12">
+                <coordinates>45.6375,31.3236,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="15">
+            <name>Итурунгаль</name>
+            <description>Изображён как канал: в нём, по словам Ниншубуры, будут плавать гружёные суда, когда ладья прибудет в Урук и Кулаб. Ранее он также назван местом, которого ладья достигает во время преследования.</description>
+            <Point id="14">
+                <coordinates>45.6361,31.3222,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="17">
+            <name>Гипар</name>
+            <description>Показан как место с вратами, у которых Инанна выкладывает выгруженные из ладьи Сути. В конце текста говорится о вратах Гипара как о месте, где должны проводить дни.</description>
+            <Point id="16">
+                <coordinates>45.6375,31.3236,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="19">
+            <name>Энун</name>
+            <description>Изображён как покои, в которых Инанна размещает Сути после выгрузки их из ладьи небесной.</description>
+            <Point id="18">
+                <coordinates>45.6375,31.3236,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="21">
+            <name>Эреду</name>
+            <description>Упомянут как град Энки, в который ему предлагается возвратиться; при этом говорится, что Сути не будут возвращены на прежнее место. В тексте это имя соотнесено с городом Энки.</description>
+            <Point id="20">
+                <coordinates>45.9969,30.8147,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
