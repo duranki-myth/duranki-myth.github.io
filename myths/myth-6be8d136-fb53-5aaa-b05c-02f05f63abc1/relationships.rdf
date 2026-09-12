@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:myth="urn:myth-analyser:"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:2">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Ан"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_creator_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Ашнан-Зерно"/>
+    <rdfs:comment xml:lang="ru">сотворил ранее</rdfs:comment>
+    <rdfs:label xml:lang="ru">сотворил ранее</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Ан">
+    <myth:is_creator_of rdf:resource="urn:myth-analyser:person:Лахар-Овца"/>
+    <myth:is_creator_of rdf:resource="urn:myth-analyser:person:Ашнан-Зерно"/>
+    <myth:is_creator_of rdf:resource="urn:myth-analyser:person:Утту-Ткачиха"/>
+    <myth:is_creator_of rdf:resource="urn:myth-analyser:person:Утту"/>
+    <myth:is_creator_of rdf:resource="urn:myth-analyser:person:Шаккан"/>
+    <rdfs:label xml:lang="ru">Ан</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:1">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Ан"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_creator_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Лахар-Овца"/>
+    <rdfs:comment xml:lang="ru">дал спуститься</rdfs:comment>
+    <rdfs:label xml:lang="ru">дал спуститься</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:4">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Ан"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_creator_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Утту"/>
+    <rdfs:comment xml:lang="ru">еще не создана</rdfs:comment>
+    <rdfs:label xml:lang="ru">еще не создана</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Энлили">
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Ашнан-Зерно"/>
+    <rdfs:label xml:lang="ru">Энлили</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:6">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Энлили"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Ашнан-Зерно"/>
+    <rdfs:comment xml:lang="ru">названа дитя</rdfs:comment>
+    <rdfs:label xml:lang="ru">названа дитя</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:7">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Энки"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_parent_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Энлиль"/>
+    <rdfs:comment xml:lang="ru">отче Энлиль</rdfs:comment>
+    <rdfs:label xml:lang="ru">отче Энлиль</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:8">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Лахар-Овца"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_sibling_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Зерно-Ашнан"/>
+    <rdfs:comment xml:lang="ru">назвала сестрой</rdfs:comment>
+    <rdfs:label xml:lang="ru">назвала сестрой</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:5">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Ан"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_creator_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Шаккан"/>
+    <rdfs:comment xml:lang="ru">еще не рожден</rdfs:comment>
+    <rdfs:label xml:lang="ru">еще не рожден</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:9">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Шаккан"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_servant_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Лахар-Овца"/>
+    <rdfs:comment xml:lang="ru">пастух твой</rdfs:comment>
+    <rdfs:label xml:lang="ru">пастух твой</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Энки">
+    <myth:is_parent_of rdf:resource="urn:myth-analyser:person:Энлиль"/>
+    <rdfs:label xml:lang="ru">Энки</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Шаккан">
+    <rdfs:label xml:lang="ru">Шаккан</rdfs:label>
+    <myth:is_servant_of rdf:resource="urn:myth-analyser:person:Лахар-Овца"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Зерно-Ашнан">
+    <rdfs:label xml:lang="ru">Зерно-Ашнан</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:edge:3">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:subject rdf:resource="urn:myth-analyser:person:Ан"/>
+    <rdf:predicate rdf:resource="urn:myth-analyser:is_creator_of"/>
+    <rdf:object rdf:resource="urn:myth-analyser:person:Утту-Ткачиха"/>
+    <rdfs:comment xml:lang="ru">еще не рождена</rdfs:comment>
+    <rdfs:label xml:lang="ru">еще не рождена</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Лахар-Овца">
+    <rdfs:label xml:lang="ru">Лахар-Овца</rdfs:label>
+    <myth:is_sibling_of rdf:resource="urn:myth-analyser:person:Зерно-Ашнан"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Утту">
+    <rdfs:label xml:lang="ru">Утту</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Утту-Ткачиха">
+    <rdfs:label xml:lang="ru">Утту-Ткачиха</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Энлиль">
+    <rdfs:label xml:lang="ru">Энлиль</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:myth-analyser:person:Ашнан-Зерно">
+    <rdfs:label xml:lang="ru">Ашнан-Зерно</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
