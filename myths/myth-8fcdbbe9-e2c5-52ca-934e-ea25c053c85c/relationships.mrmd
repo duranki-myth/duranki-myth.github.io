@@ -1,0 +1,6 @@
+graph LR
+    n1["Энки"]:::person
+    n2["Эредуг"]:::geo
+    n1 -->|"владыка Эредуга"| n2
+    classDef person fill:#ffd9f0,stroke:#aa3377,color:#000
+    classDef geo fill:#d9ffd9,stroke:#33aa33,color:#000
